@@ -1,0 +1,49 @@
+
+.mainBoxes{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+}
+.mainBox1{
+	padding: 25px 22px;
+	background-color: #fff;
+	box-shadow: 0px 4px 10px 0px #BBE1FA40;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	max-width: 500px;
+}
+.mainBox1_header h2{
+	font-size: 26px;
+	font-family: "heebo";
+	font-weight: 700;
+	line-height: 38px;
+	color: #21243D;
+}
+.mainBox1_info{
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+.mainBox1_info p{
+	font-size: 18px;
+	font-family: "heebo";
+	font-weight: 400;
+	line-height: 26px;
+	color: #21243D;
+}
+.mainBox1_info .line{
+	width: 1px;
+	height: 20px;
+	border: 1px solid #000000
+}
+.mainBox1_desc p{
+	font-size: 16px;
+	font-family: "heebo";
+	font-weight: 400;
+	line-height: 24px;
+	color: #21243D;
+}

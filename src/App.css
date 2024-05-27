@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+@font-face {
+	font-family: "heebo";
+	src: url(./assets/Heebo/static/Heebo-Regular.ttf);
+}
+.container{
+	width: 100%;
+	height: 100vh;
+}
+
+@media (max-width: 1150px) {
+	nav{
+		height: 80px;
+		padding: 0px 40px;
+	}
+	.header_main{
+		padding: 120px 100px 50px 100px;
+	}
+	.mainPosts{
+		padding: 30px 100px;
+	}
+	.mainFeatures{
+		padding: 20px 100px 80px 100px;
+	}
+}
+@media (max-width: 1000px) {
+	.header_main{
+		padding: 120px 70px 50px 70px;
+	}
+	.mainPosts{
+		padding: 30px 70px;
+	}
+	.headerMain_text{
+		max-width: 430px;
+		gap: 25px;
+	}
+	.headerMain_text h1{
+		font-size: 35px;
+		line-height: 50px;
+	}
+	.headerMain_text p{
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.headerMain_text button{
+		font-size: 15px;
+		line-height: 20px;
+		padding: 10px 15px;
+	}
+	.headerMain_media img{
+		width: 230px;
+		height: 230px;
+	}
+	.mainFeatures{
+		padding: 20px 70px 50px 70px;
+	}
+}
+
+@media (max-width: 800px) {
+	.header_main{
+		padding: 70px 70px 60px 70px;
+	}
+	.mainPosts{
+		padding: 20px 10px;
+	}
+	.mainBoxes{
+		flex-wrap: wrap;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.mainHeader{
+		display: flex;
+		justify-content: center;
+	}
+	.mainHeader a{
+		display: none;
+	}
+	.header_main{
+		flex-wrap: wrap;
+		display: flex;
+		justify-content: center;
+		gap: 50px;
+	}
+	.headerMain_text{
+		order: 1;
+		display: flex;
+		align-items: center;
+	}
+	.headerMain_text h1{
+		text-align: center;
+	}
+	.headerMain_text p{
+		text-align: center;
+	}
+	.mainFeatures{
+		padding: 10px 10px 150px 10px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.mainBox{
+		flex-wrap: wrap;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.mainBox img{
+		width: 100%;
+	}
+}
+@media (max-width: 700px) {
+	nav{
+		height: 70px;
+		padding: 0px 30px;
+	}
+	.navItems a{
+		font-size: 18px;
+		line-height: 25px;
+	}
+
+}
+@media (max-width: 450px) {
+	.header_main{
+		padding: 30px 70px 30px 70px;
+	}
+	nav{
+		height: 70px;
+		padding: 0px 30px;
+	}
+	.navItems a{
+		display: none;
+	}
+	nav span{
+		display: block;
+		font-size: 22px;
+		color:#21243D;
+	}
+}

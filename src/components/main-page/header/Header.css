@@ -1,0 +1,71 @@
+.header_main{
+	display: flex;
+	width: 100%;
+	padding: 160px 160px 70px 160px;
+	align-items: center;
+	justify-content: space-between;
+}
+.headerMain_text{
+	max-width: 510px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.headerMain_text h1{
+	font-size: 44px;
+	font-family: "heebo";
+	font-weight: 700;
+	line-height: 60px;
+	color: #21243D;
+}
+.headerMain_text p{
+	font-size: 16px;
+	font-family: "heebo";
+	font-weight: 400;
+	line-height: 24px;
+	color: #21243D;
+}
+.headerMain_text button{
+	font-size: 20px;
+	font-family: "heebo";
+	font-weight: 500;
+	line-height: 30px;
+	color: #fff;
+	padding: 13px 20px;
+	border: none;
+	background-color: #FF6464;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.headerMain_media img{
+	order: 1;
+	width: 270px;
+	height: 270px;
+}
+.mainPosts{
+	width: 100%;
+	padding: 30px 160px;
+	background-color: #EDF7FA;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.mainHeader{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.mainHeader p{
+	font-size: 22px;
+	font-family: "heebo";
+	font-weight: 400;
+	line-height: 28px;
+	color: #21243D;
+}
+.mainHeader a{
+	font-size: 16px;
+	font-family: "heebo";
+	font-weight: 400;
+	line-height: 24px;
+	color: #00A8CC;
+}

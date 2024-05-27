@@ -1,0 +1,24 @@
+footer{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	align-items: center;
+	justify-content: center;
+	padding: 70px 0px;
+}
+footer p{
+	font-size: 14px;
+	font-family: "heebo";
+	font-weight: 400;
+	line-height: 20px;
+	color: #21243D;
+}
+.icon{
+	display: flex;
+	align-items: center;
+	gap: 35px;
+}
+.icon span{
+	font-size: 30px;
+}

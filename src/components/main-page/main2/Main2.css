@@ -1,0 +1,72 @@
+.mainFeatures{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 160px 80px 160px;
+}
+.mainFeatures h2{
+	font-size: 22px;
+	font-family: "heebo";
+	font-weight: 400;
+	line-height: 60px;
+	color: #21243D;
+}
+.main_Boxes{
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+.mainBox{
+	display: flex;
+	width: 100%;
+	align-items:center;
+	gap: 20px;
+}
+.mainBox_desc{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	max-width: 600px;
+}
+.mainBox_desc h3{
+	font-size: 30px;
+	font-family: "heebo";
+	font-weight: 700;
+	line-height: 44px;
+	color: #21243D;
+}
+.data{
+	display: flex;
+	align-items: center;
+	gap: 26px;
+}
+.year{
+	width: 60px;
+	height: 25px;
+	border-radius: 16px;
+	background-color: #142850;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.year span{
+	font-size: 18px;
+	font-family: "heebo";
+	font-weight: 900;
+	line-height: 60px;
+	color: #fff;
+}
+.data h4{
+	font-size: 20px;
+	font-family: "heebo";
+	font-weight: 400;
+	line-height: 30px;
+	color: #8695A4;
+}
+.mainBox_desc p{
+	font-size: 16px;
+	font-family: "heebo";
+	font-weight: 400;
+	line-height: 24px;
+	color: #21243D;
+}
