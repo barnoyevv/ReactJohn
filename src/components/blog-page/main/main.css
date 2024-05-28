@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.list{
+	width: 100%;
+	padding: 100px 235px;
+	display: flex;
+	flex-direction: column;
+	gap: 55px;
+}
+.list h1{
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 60px;
+	font-family: "heebo";
+	color: #21243D;
+}
+.boxes{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.box h2{
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 44px;
+	font-family: "heebo";
+	color: #21243D;
+}
+.box h3{
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 23px;
+	font-family: "heebo";
+	color: #21243D;
+}
+.data{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.data p{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	font-family: "heebo";
+	color: #21243D;
+}
+.data h4{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	font-family: "heebo";
+	color: #8695A4;
+}
+.slash {
+	border: 1px solid #000000;
+	height: 20px;
+}
+.line{
+	border: 1px solid #E0E0E0;
+	width: 100%;
+}
+@media (max-width: 1400px) {
+	.list{
+		padding: 100px 150px;
+	}
+}
+@media (max-width: 950px) {
+	.list{
+		padding: 100px 100px;
+	}
+}
+@media (max-width: 700px) {
+	.list{
+		padding: 50px 50px;
+	}
+}
+@media (max-width: 450px) {
+	.list{
+		padding: 20px 25px;
+		gap: 30px;
+	}
+	.list h1{
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.box h2{
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.box h3{
+		font-size: 15px;
+	}
+	.data{
+		display: flex;
+		align-items: center;
+		gap: 20px;
+	}
+	.data p{
+		font-size: 15px;
+		line-height: 25px;
+	}
+	.data h4{
+		font-size: 15px;
+		line-height: 25px;
+	}
+	.slash {
+		border: 1px solid #000000;
+		height: 15px;
+	}
+}
